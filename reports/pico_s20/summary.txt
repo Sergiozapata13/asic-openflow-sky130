@@ -1,0 +1,11 @@
+run: pico_s20 (sky130hd)
+--- synthesis area
+   Chip area for module '\pico_solo_top': 80717.414400
+     of which used for sequential elements: 43491.712000 (53.88%)
+--- final timing
+--- detailed route violations (last)
+--- global route congestion
+--- final area
+--- logic equivalence (final)
+--- KLayout DRC count
+not run
