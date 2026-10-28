@@ -1,0 +1,28 @@
+run: gcd_t32 (sky130hd)
+--- synthesis area
+   Chip area for top module '\gcd': 2313.468800
+     of which used for sequential elements: 1020.979200 (44.13%)
+--- final timing
+tns max 0.00
+wns max 0.00
+worst slack max 0.03
+--- detailed route violations (last)
+[INFO DRT-0199]   Number of violations = 0.
+--- global route congestion
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Congestion
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1              1396           503           36.03%             0 /  0 /  0
+met2              1170           411           35.13%             0 /  0 /  0
+met3               875            33            3.77%             0 /  0 /  0
+met4               560            35            6.25%             0 /  0 /  0
+met5               110             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total             4111           982           23.89%             0 /  0 /  0
+--- final area
+Design area 3759 um^2 64% utilization.
+--- logic equivalence (final)
+[2026-10-27 06:16:27.010] [miter_logger] [info] Circuits are IDENTICAL
+--- KLayout DRC count
+not run
