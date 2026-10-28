@@ -31,3 +31,8 @@ through `util/docker_shell`. ORFS itself is not included in this repository.
 
 `picorv32.v` is copyright Claire Xenia Wolf and distributed under its original
 ISC-style license; its header is kept unchanged.
+
+## License
+
+Files written by me are released under the MIT License (see `LICENSE`).
+Third-party files keep their original licenses.
