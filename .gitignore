@@ -1,0 +1,18 @@
+# ORFS outputs (kept outside the repo; curated extracts live in reports/)
+*.odb
+*.gds
+*.gds.gz
+*.def
+*.spef
+*.lyrdb
+results/
+objects/
+
+# Simulation and build artifacts
+*.vcd
+obj_dir/
+*.o
+
+# Editors
+*~
+.vscode/
